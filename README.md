@@ -16,7 +16,7 @@
 
 > An open source tool that lets you create SaaS websites from images in as little as 10 minutes.
 
-Docker2SaaS is an open source tool that helps web application and service developers quickly build websites for sale. All you need to do is make an image of the application you developed, then set up and configure a Docker2SaaS website to start selling cloud applications.
+Docker2SaaS is a tool that enables multi-tenancy through virtualization technology (calling cloud platform api ) with tenant management and subscription managment.  It helps web application and service developers to quickly build websites for sale. All you need to do is make an image of your application and then set up and configure a Docker2SaaS site to start selling cloud applications.
 
 When a user's subscription is successful, it automatically creates a VPS from the image as configured; when the user cancels the subscription and it expires, it automatically deletes the VPS. users can login to the site and see their subscription, host IP information. Of course, you can add more, because it is open source.
 
