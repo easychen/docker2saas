@@ -1,5 +1,15 @@
 <img src="public/brand.svg" width="360"/>
 
+# Screenshots
+
+![](./_image/screen1.png)
+![](./_image/screen2.png)
+![](./_image/screen3.png)
+![](./_image/screen4.png)
+![](./_image/screen7.png)
+![](./_image/screen5.png)
+![](./_image/screen6.png)
+
 [简体中文](./README.zh-cn.md)
 
 ⚠️ This document was translated into English by deepl and can be improved by PR
@@ -138,7 +148,8 @@ git clone https://gitlab.com/easychen/docker-2-saas.git --depth=1 docker2saas
 Initialization of dependency packages：
 
 ```bash
-cd docker2saas && composer install
+cd docker2saas 
+composer install
 ```
 
 Rename `.env.example` to `.env` and run the command to generate APP_KEY

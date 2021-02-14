@@ -2,6 +2,19 @@
 
 [English](./README.md)
 
+# 产品截图
+
+![](./_image/screen1.png)
+![](./_image/screen2.png)
+![](./_image/screen3.png)
+![](./_image/screen4.png)
+![](./_image/screen7.png)
+![](./_image/screen5.png)
+![](./_image/screen6.png)
+
+
+
+
 # 什么是 Docker2SaaS
 
 > 一个让你只需要花 10 分钟就可以从镜像创建 SaaS 网站的开源工具。
@@ -137,7 +150,8 @@ git clone https://gitlab.com/easychen/docker-2-saas.git --depth=1 docker2saas
 初始化依赖包：
 
 ```bash
-cd docker2saas && composer install
+cd docker2saas 
+composer install
 ```
 
 将 `.env.example` 改名为 `.env` ，并运行命令生成 APP_KEY
