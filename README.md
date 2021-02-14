@@ -50,7 +50,7 @@ PS: Docker2SaaS is built on Laravel, and while no knowledge is required for a si
 ### Create a Digital Ocean image 
 We assume that you have already made a docker image of your application and can start it with the docker-compose command. Let's use Ghost as an example to explain.
 
-First we will create a droplet on Digital Ocean and select `docker on ubuntu` under `marketplace`.
+First we will create a droplet（ Digital Ocean calls its VPS droplet  ） on Digital Ocean and select `docker on ubuntu` under `marketplace`.
 
 ![](./_image/2021-02-13/2021-02-13-23-19-50.png)
 

@@ -54,7 +54,7 @@ PS：Docker2SaaS 是基于 Laravel 构建的，虽然简单的搭建无需相关
 ### 创建 Digital Ocean 镜像 
 我们假设你已经将应用做成 docker 镜像，并可以通过  docker-compose 命令启动。下边我们以 Ghost 为例，来进行讲解。
 
-首先我们在 Digital Ocean 上创建一个 droplet。镜像选择 `marketplace` 下的 `docker on ubuntu`。
+首先我们在 Digital Ocean 上创建一个 droplet（ Digital Ocean 的 VPS 叫做 droplet ）。镜像选择 `marketplace` 下的 `docker on ubuntu`。
 
 ![](./_image/2021-02-13/2021-02-13-23-19-50.png)
 
