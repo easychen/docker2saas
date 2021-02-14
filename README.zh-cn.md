@@ -97,7 +97,10 @@ volumes:
 ![](./_image/2021-02-13/2021-02-13-23-45-41.png)
 ### 创建 Digital Ocean Token
 
-下边我们来创建一个 token，这样才能通过 API 管理 droplet 。在左侧菜单最下方，选择 API。![](./_image/2021-02-13/2021-02-13-23-53-39.png)
+下边我们来创建一个 token，这样才能通过 API 管理 droplet 。在左侧菜单最下方，选择 API。
+
+![](./_image/2021-02-13/2021-02-13-23-53-39.png)
+
 在 Tokens/Keys tab， 生成一个新的 token。注意要选择 read && write 权限。
 生成好以后把它记录下来，之后会用到。（我们称其为 A2）
 

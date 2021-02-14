@@ -97,7 +97,10 @@ Go to the images page and look up the data-id of the snapshot in the source code
 
 ### Creating a Digital Ocean Token
 
-Next we will create a token so that we can manage droplet through the API. At the bottom of the left menu, select API. [](. /_image/2021-02-13/2021-02-13-23-53-39.png)
+Next we will create a token so that we can manage droplet through the API. At the bottom of the left menu, select API. 
+
+![](./_image/2021-02-13/2021-02-13-23-53-39.png)
+
 In the Tokens/Keys tab, generate a new token with the read && write permissions selected.
 Once generated, record it and you will need it later. (We'll call it A2)
 
