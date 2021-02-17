@@ -269,7 +269,7 @@ webhook 需要填写外网可访问的 URL，建议上线后再进行配置。�
 在 events to send 处选择以下事件：
 
 1. invoice.created
-2. invoice.payment_succeeded
+2. invoice.paid
 3. invoice.payment_action_required
 4. customer.subscription.created
 5. customer.subscription.updated
@@ -278,7 +278,7 @@ webhook 需要填写外网可访问的 URL，建议上线后再进行配置。�
 8. customer.updated
 9. customer.deleted
 
-⚠️ 注意其中 `customer.subscription.updated` 为订阅变更，由于背后涉及到云应用具体的升降级逻辑，默认并未进行处理。可以在 `app/Http/Controllers/WebhookController.php` 中自行实现。
+注意其中 `customer.subscription.updated` 为订阅变更，由于背后涉及到云应用具体的升降级逻辑，默认并未进行处理。可以在 `app/Http/Controllers/WebhookController.php` 中自行实现。
 
 至此，网站就可以进行正常的交易了。注意这里我们是使用 develop server 进行调试的，为了支持更多的用户，应切换到 Nginx 等专用服务器软件上。具体的操作，请[参考这里](https://laravel.com/docs/8.x/deployment)。
 

@@ -273,7 +273,7 @@ Suppose the URL of Docker2Saas website is `http://D.com`, then the webhook endpo
 Select the following events at events to send.
 
 1. invoice.created
-2. invoice.payment_succeeded
+2. invoice.paid
 3. invoice.payment_action_required
 4. customer.subscription.created
 5. customer.subscription.updated
@@ -282,7 +282,7 @@ Select the following events at events to send.
 8. customer.updated
 9. customer.deleted
 
-⚠️ Note that the `customer.subscription.updated` is a subscription change, which is not handled by default as it involves the specific hierarchy logic behind the cloud application. You can implement it yourself in `app/Http/Controllers/WebhookController.php`.
+Note that the `customer.subscription.updated` is a subscription change, which is not handled by default as it involves the specific hierarchy logic behind the cloud application. You can implement it yourself in `app/Http/Controllers/WebhookController.php`.
 
 At this point, the site is ready for normal transactions. Note that here we are using develop server for debugging, and in order to support more users, you should switch to dedicated server software such as Nginx. For details, please [refer here](https://laravel.com/docs/8.x/deployment).
 
