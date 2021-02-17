@@ -50,12 +50,15 @@ class WebhookController extends CashierController
 
     protected function handleInvoiceFinalized(array $payload)
     {
-        file_put_contents('log.final.json', json_encode($payload));
+        // file_put_contents('log.final.json', json_encode($payload));
         return $this->successMethod();
     }
 
-    protected function handleInvoicePaid(array $payload)
+    //protected function handleInvoicePaid(array $payload)
+    protected function handleInvoicePaymentSucceeded(array $payload)
     {
+        // file_put_contents(app_path().'/log.txt', json_encode($payload));
+
         $data = $payload['data']['object'];
         // 确认支付信息
         if ($data['paid'] == true) {
