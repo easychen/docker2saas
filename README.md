@@ -21,31 +21,62 @@ for admin
 
 ⚠️ This document was translated into English by deepl and can be improved by PR
 
-> An open source tool that lets you create SaaS websites from images in as little as 10 minutes.
+> An open source tool that lets you create SaaS websites from images in as
+little as 10 minutes.
 
-Docker2SaaS is a tool that enables multi-tenancy through virtualization technology (calling cloud platform api ) with tenant management and subscription managment.  It helps web application and service developers to quickly build websites for sale. All you need to do is make an image of your application and then set up and configure a Docker2SaaS site to start selling cloud applications.
+Docker2SaaS is a tool that enables multi-tenancy through virtualization
+technology (calling cloud platform api ) with tenant management and subscription
+managment.  It helps web application and service developers to quickly build
+websites for sale or subscription. All you need to do is make an image of your application and
+then set up and configure a Docker2SaaS site to start selling your application as a service.
 
-When a user's subscription is successful, it automatically creates a VPS from the image as configured; when the user cancels the subscription and it expires, it automatically deletes the VPS. users can login to the site and see their subscription, host IP information. Of course, you can add more, because it is open source.
+When a user's subscription is successful, it automatically creates a VPS from
+the image as configured; when the user cancels the subscription and it expires,
+it automatically deletes the VPS. Users can login to the site and see their
+subscription, host IP information, and other details. Additional extentsions can be
+added.
 
-The diagram below shows how Docker2SaaS interacts between customers, payment provider Stripe and cloud service provider DigitalOcean.
+The diagram below shows how Docker2SaaS interacts between:
+End Users  
+Payment provider: Stripe 
+Cloud service provider: DigitalOcean.
 
 ![](./_image/mm1.png)
 
 # Target Users of Docker2SaaS
 
-Docker2SaaS is aimed at developers of cloud applications, providing them with a solution to quickly monetize their applications.
+Docker2SaaS is aimed at developers of cloud applications, providing them with a
+solution to quickly monetize their applications.
 
-Let's say you develop a nice little web app and open source it to Github. some developers easily build it and use it on their own, but as the app becomes more popular, so do non-technical users. But even if they have already made a docker file, it is still difficult for them.
+Let's say you develop a nice little web app and open source it to Github.
+Developers easily build it and use it on their own, but as the app becomes more
+popular, so do non-technical users. But even if they have already made a docker
+file, it is still difficult for them.
 
-At this point you may want to provide a cloud hosting version. On the one hand, you can solve the details of the build for non-technical users, and on the other hand, hosting can bring some profit, so you can get a financial return.
+At this point you may want to provide a cloud hosting version. On the one hand,
+you can solve the details of the build for non-technical users, and on the other
+hand, hosting can bring some profit, so you can get a financial return.
 
-However, this can create an additional amount of development, and it doesn't seem wise to spend weeks on development before you know if cloud hosting will be popular.
+However, this can create an additional amount of development, and it doesn't
+seem wise to spend weeks on development before you know if cloud hosting will be
+popular.
 
-Fortunately, the open source Docker2SaaS solves this problem, and it only takes ten minutes to configure and you can get a simple but usable cloud hosting sales site. It's immediately ready for early sales, and you can modify the source code to add more business-related features as user demand increases. 
+Fortunately, the open source Docker2SaaS solves this problem, and it only takes
+ten minutes to configure and you can get a simple and usable cloud hosting sales
+site. It's **immediately ready for early sales**, and you can modify the source code
+to add more business-related features as user demand increases. 
 
-Of course, it can also be used to build a third-party sales site under the license of a cloud application developer. But overall, Docker2SaaS is designed for developers and does not take into account the experience of non-technical users, so if you don't have a technical background, it's better to use a Docker2SaaS site that someone else has built rather than building it yourself.
+Of course, it can also be used to build a third-party sales site under the
+license of a cloud application developer. But overall, Docker2SaaS is designed
+for developers and does not take into account the experience of non-technical
+users, so if you don't have a technical background, it's better to use a
+Docker2SaaS site that someone else has built rather than building it yourself.
 
-PS: Docker2SaaS is built on Laravel, and while no knowledge is required for a simple deployment, if you want to customize and add features, then you need to have a little Laravel development knowledge.
+PS: Docker2SaaS is built on Laravel, and while no knowledge is required for a
+simple deployment, if you want to customize and add features, then you need to
+have a little Laravel development knowledge.
+
+Docker2Saas is licensed under the GPLv2 with an additional non-compete clause. 
 
 ## Docker2SaaS Guide
 
