@@ -33,7 +33,7 @@ then set up and configure a Docker2SaaS site to start selling your application a
 When a user's subscription is successful, it automatically creates a VPS from
 the image as configured; when the user cancels the subscription and it expires,
 it automatically deletes the VPS. Users can login to the site and see their
-subscription, host IP information, and other details. Additional extentsions can be
+subscription, host IP information, and other details. Additional extensions can be
 added.
 
 The diagram below shows how Docker2SaaS interacts between:
